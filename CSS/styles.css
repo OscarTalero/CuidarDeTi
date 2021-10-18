@@ -54,22 +54,46 @@ a {
 }
 
 main .contenedor {
-  padding: 30 0 60 0;
-}
-
-.imagen-nosotros {
-  height: 150px;
-  width: 200px;
-}
-.sobre-nosotros {
-  display: flex;
-  justify-content: space-betweenS;
-
+  color: #83045f;
+  width: 90%;
+  margin: 30px auto;
 }
 
 h1{
   text-align: center;
 }
+
+/* Nosotros */
+
+.sobre-nosotros {
+  background-color: aliceblue;
+  margin: 0;
+  padding: 50px;
+}
+
+.sobre-nosotros .quienes-somos{
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.imagen-nosotros {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%; 
+}
+
+.texto-quienes-somos h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.texto-quienes-somos p {
+  margin-left: 50px;
+  font-size: 20px;
+  text-align: justify;
+}
+
 .galeria-servicios {
   display: flex;
   justify-content: space-between;
