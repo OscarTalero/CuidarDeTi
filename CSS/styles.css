@@ -25,6 +25,10 @@ header {
     top: 8px;
 }
 
+.logo {
+	background: white;
+}
+
 .navbar-title {
   display: flex;
   margin-top: 150px;
@@ -53,7 +57,30 @@ main .contenedor {
   padding: 30 0 60 0;
 }
 
-.imgnosotros {
+.imagen-nosotros {
+  height: 150px;
+  width: 200px;
+}
+.sobre-nosotros {
+  display: flex;
+  justify-content: space-betweenS;
+
+}
+
+h1{
+  text-align: center;
+}
+.galeria-servicios {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagen-servicios{
   width: 200px;
   height: 150px;
+}
+
+.contratar {
+  display: flex;
+  justify-content: space-between;
 }
